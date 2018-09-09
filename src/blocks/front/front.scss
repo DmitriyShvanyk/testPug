@@ -1,0 +1,36 @@
+.front {
+	min-height: calc(100vh - 70px);
+	background: url('../img/front__bg.jpg') no-repeat center top;
+	background-size: cover;
+
+	.row {
+		min-height: calc(100vh - 70px);
+	}
+
+	h1 {
+		font-size: 70px;
+		font-weight: 600;
+		font-weight: 400;
+		margin-top: 23px;
+		margin-bottom: 23px;
+	}
+
+	&__comment {
+		font-size: 18px;
+		line-height: 1.67;
+		text-align: center;
+	}
+
+	@include media-breakpoint-down(md) {
+		
+		h1 {
+			font-size: 60px;
+		}
+
+	}
+	@include media-breakpoint-down(sm) {
+		h1 {
+			font-size: 50px;
+		}
+	}
+}

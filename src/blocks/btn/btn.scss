@@ -1,0 +1,17 @@
+.btn {
+	background: #E73741;
+	color: #fff;
+	display: inline-block;
+	vertical-align: top;
+	padding: 13px 54px;
+	border-radius: 3px;
+	transition: all .3s ease;
+	
+	&:hover,
+	&:focus,
+	&:active{
+		color: #fff;
+		background: #EA555D;
+	}
+	
+}

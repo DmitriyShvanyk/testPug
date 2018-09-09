@@ -1,0 +1,38 @@
+.header {
+	position: relative;
+	z-index: 1;
+	box-shadow: 0px 1px 7px rgba(85, 85, 85, .25);
+	
+	&__content {		
+		padding-top: 10px;
+		padding-bottom: 10px;
+		display: flex;
+		align-items: center;
+		justify-content: space-between;
+
+		.logo {
+			display: inline-block;
+			vertical-align: top;
+			background: url('../img/logo.svg') no-repeat 0 0;
+			background-size: 149px 50px;
+			width: 149px;
+			height: 50px;
+		}
+		
+
+		/* Пример медиа-запроса. Подробнее здесь: https://getbootstrap.com/docs/4.1/layout/overview/#responsive-breakpoints */
+		@include media-breakpoint-down(sm) {
+			.logo {				
+				background-size: 100px 35px;
+				width: 100px;
+				height: 35px;
+			}
+			.btn{
+				padding-left: 25px;
+				padding-right: 25px;
+			}
+			
+		}
+		
+	}
+}
