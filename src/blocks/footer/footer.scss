@@ -31,10 +31,10 @@
 	}
 
 	@include media-breakpoint-down(md) {
-		
+
 		&__link {
-			font-size: 16px;			
-		}		
+			font-size: 16px;
+		}
 
 	}
 	@include media-breakpoint-down(sm) {
@@ -42,7 +42,7 @@
 		&__top {
 			flex-wrap: wrap;
 			flex-direction: column;
-			justify-content: center;			
+			justify-content: center;
 			margin-bottom: 30px;
 		}
 		&__sitemap {
@@ -56,6 +56,12 @@
 			text-align: center;
 			display: block;
 			font-size: 14px;
+		}
+		.socials {
+
+			&__item {
+				margin-right: 10px;
+			}
 		}
 
 	}
